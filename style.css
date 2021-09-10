@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  /* Primary colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral colors */
+  --very-pale-blue: hsl(228, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--desaturated-blue);
+  font-size: 16px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--pale-blue);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  max-width: 25em;
+  box-shadow: 5px 10px 18px #dbdbdb;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.div1 {
+  height: auto;
+}
+.div1 img {
+  width: 100%;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+  margin-top: -10px;
+}
+.content {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.content h1 {
+  color: black;
+  margin-top: -5px;
+  padding-top: 2rem;
+}
+.content p {
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  background-color: var(--very-pale-blue);
+  width: 80%;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.desc {
+  margin-right: 25%;
+}
+.desc h1 {
+  font-size: 0.9rem;
+  color: black;
+}
+.desc p {
+  font-size: 0.8rem;
+}
+.change a {
+  color: var(--bright-blue);
+}
+.change a:active {
+  text-decoration: none;
+  color: hsl(246, 66%, 81%);
+}
+.buttons {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons button {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 5vh;
+  border: none;
+  font-family: "Red Hat Display", sans-serif;
+}
+.submit {
+  background-color: var(--bright-blue);
+  color: white;
+  font-weight: 20px solid bold;
+  box-shadow: 5px 10px 20px #b8b5b5;
+}
+.submit:active {
+  background-color: hsl(246, 66%, 81%);
+  cursor: pointer;
+}
+.cancel {
+  background-color: transparent;
+  color: var(--desaturated-blue);
+  font-weight: 20px solid bolder;
+  margin-bottom: 5%;
+}
+.cancel:active {
+  color: black;
+  cursor: pointer;
+}
+
+.attribution {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 400px) {
+  main {
+    width: 90vw;
+  }
+  .desc h1 {
+    font-size: 0.8rem;
+  }
+  .desc p {
+    font-size: 0.8rem;
+  }
+  .change a {
+    font-size: 0.8rem;
+  }
+  #music-icon img {
+    width: 30px;
+  }
+  .plan {
+    position: relative;
+  }
+  .change {
+    position: absolute;
+    right: 10px;
+  }
+  .desc {
+    position: absolute;
+    left: 60px;
+  }
+}

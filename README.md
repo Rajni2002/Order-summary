@@ -14,21 +14,13 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See hover states for interactive elements
-
 ### Screenshot
 
-![](./Screenshot 2021-09-10 at 6.11.16 PM.jpg)
+![](/Screenshot 2021-09-10 at 6.11.16 PM.jpg)
 
 ### Links
 
@@ -45,11 +37,6 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-
 ```css
 /* proud of using flexbox  */
 ```
@@ -63,9 +50,3 @@ I'm focussing on my web development and problem solving skills.
 
 - Frontend Mentor - [@Rajni2002](https://www.frontendmentor.io/profile/Rajni2002)
 - Twitter - [@rajni2k2](https://twitter.com/rajni2k2)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

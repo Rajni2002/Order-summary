@@ -16,16 +16,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 
 
-## Overview
-
 ### Screenshot
 
-![](/Screenshot 2021-09-10 at 6.11.16 PM.jpg)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![Card screenshot](images/Screenshot 2021-09-10 at 6.11.16 PM.jpg)
 
 ### Built with
 

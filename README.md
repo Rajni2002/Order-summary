@@ -18,7 +18,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Card screenshot](images/Screenshot 2021-09-10 at 6.11.16 PM.jpg)
+![Card screenshot](https://github.com/Rajni2002/Order-summary/blob/main/Screenshot%202021-09-10%20at%207.14.38%20PM.png)
 
 ### Built with
 
